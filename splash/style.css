@@ -1,0 +1,81 @@
+/* Preamble */
+@import "whitespace-reset.css";
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+/* Site Specific */
+
+body {
+  background-image: url("assets/bg_body.gif");
+  font: 20px "Nunito Sans", Helvetica, Arial, sans-serif;
+  color: #45494D;
+}
+
+header,
+main,
+footer {
+  width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+header {
+  margin-top: 10rem;
+  margin-bottom: 5rem;
+}
+
+main {
+  background-color: #FFFFFF;
+  padding: 7rem 5rem 5rem;
+}
+
+footer {
+  background-color: #E7E7E7;
+}
+
+footer ul {
+  margin: 0 auto;
+  justify-content: center;
+}
+
+footer li {
+  display: inline-block;
+  margin: 2rem 3.5rem;;
+}
+
+footer img {
+  vertical-align: middle;
+}
+
+h2,
+dt {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+dl {
+  margin: 10rem 0 2rem 0;
+}
+
+dd {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #3E98B2;
+}
+
+h2::before,
+h2::after,
+dt::before,
+dt::after {
+  content: "\2022";
+  margin: 0 2rem;
+}
