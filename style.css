@@ -1,0 +1,18 @@
+/* Preamble */
+@import "whitespace-reset.css";
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font: normal 24px Helvetica, Arial, sans-serif;
+  background-color: white;
+  color: black;
+}
