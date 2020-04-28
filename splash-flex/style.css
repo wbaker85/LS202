@@ -41,9 +41,10 @@ footer {
   background-color: #E7E7E7;
 }
 
-footer li {
-  display: inline-block;
-  margin: 2rem 3.5rem;;
+footer ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 20rem;
 }
 
 footer img {
