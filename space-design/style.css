@@ -1,0 +1,162 @@
+/* Preamble */
+@import "whitespace-reset.css";
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+/* Site Style */
+
+html {
+  font: normal 20px Avenir, Helvetica, Arial, sans-serif;
+}
+
+body {
+  background: #ffffff;
+  color: #45494d;
+}
+
+header,
+main,
+footer {
+  text-align: center;
+}
+
+header {
+  background: #2F2840 url("images/bg_body.gif");
+  padding: 6.5rem 0 2rem 0;
+}
+
+nav {
+  margin-top: 6rem;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 2rem;
+}
+
+header a {
+  color: #cacaca;
+  text-transform: uppercase;
+  font-size: 1.25rem;
+  text-decoration: none;
+}
+
+.active {
+  color: #6db9ff;
+  font-weight: 600;
+}
+
+main {
+  width: 900px;
+  margin: 0 auto;
+  padding: 5.5rem 0 2.5rem 0;
+}
+
+h2 {
+  font-size: 2.0rem;
+  margin-bottom: 2rem;
+}
+
+h3 {
+  font-weight: 900;
+  color: #3e59b2;
+  margin-bottom: 0.5rem;
+}
+
+p {
+  margin-bottom: 2rem;
+}
+
+h2::before,
+h2::after {
+  content: "\2022";
+  margin: 0 1.75rem;
+  font-size: 1.25rem;
+  vertical-align: 0.3rem;
+}
+
+footer {
+  color: #b2b2b2;
+  margin: 0 auto;
+  padding: 4rem;
+  width: 1200px;
+  background-color: #e7e7e7;
+}
+
+footer p {
+  width: 500px;
+  margin: 0 auto;
+}
+
+footer ul {
+  margin-top: 2rem;
+}
+
+footer li {
+  display: inline-block;
+  margin: 0 3rem;
+}
+
+footer li a {
+  background:
+    transparent
+    url("https://d3jtzah944tvom.cloudfront.net/202/projects/lesson_7/spacedesign/images/icons_social-media.png")
+    0 0 no-repeat;
+  display: block;
+  height: 46px;
+  overflow: hidden;
+  text-indent: -8685px;
+  width: 46px;
+}
+
+footer li a.twitter {
+  background-position: 0 0;
+}
+
+footer li a.facebook {
+  background-position: 0 -46px;
+}
+
+footer li a.email {
+  background-position: 0 -92px;
+}
+
+footer li a.instagram {
+  background-position: 0 -138px;
+}
+
+article img {
+  width: 100%;
+  margin-bottom: 2.5rem;
+  vertical-align: top;
+  margin-bottom: 1.5rem;
+}
+
+.project-description {
+  width: 40rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+article ul {
+  margin-top: 5rem;
+  margin-bottom: 8rem;
+}
+
+article li {
+  display: inline-block;
+  margin: 0 1.5rem;
+}
+
+figcaption {
+  font-size: 1.2rem;
+  color: #3e59b2;
+}
